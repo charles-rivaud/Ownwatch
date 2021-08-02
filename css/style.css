@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Noto+Sans+JP:wght@100;500;900&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+
+body {
+  font-family: 'EB-Garamond', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  margin: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Noto-Sans-JP', serif;
+  font-weight: 500;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+a{
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#presentation {
+  margin-bottom: 55px;
+}
